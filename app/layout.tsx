@@ -25,6 +25,9 @@ export const metadata: Metadata = {
   description:
     'lal — קולקציית טיפוח וגוף יוקרתית. מגבות ענן, שמני גוף, סבונים בעבודת יד ואביזרי רחצה בגוונים פסטליים רכים.',
   generator: 'v0.app',
+  verification: {
+    google: 'xKjhEr4Af3KaYPPz_7rBWitOzATwZ_2-pp4jS9urYQM',
+  },
 }
 
 export const viewport: Viewport = {
