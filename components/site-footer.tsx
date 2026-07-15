@@ -50,7 +50,7 @@ export function SiteFooter() {
             {[
               { label: 'אודות lal', href: '/about' },
               { label: 'משלוחים והחזרות', href: '#' },
-              { label: 'צור קשר', href: '#' },
+              { label: 'צור קשר', href: '/contact' },
               { label: 'שאלות נפוצות', href: '#' },
             ].map(({ label, href }) => (
               <li key={label}>
