@@ -79,6 +79,27 @@ export default function ShippingPage() {
           עם מספר ההזמנה, ונדריך אתכם בתהליך. עלות המשלוח החוזר חלה על הלקוח, אלא אם ההחזרה נובעת
           מפגם במוצר או טעות בשליחה.
         </p>
+        
+
+
+
+        <p className="mt-6 text-base leading-relaxed text-foreground/70">
+          לביצוע החזרה או החלפה, פשוט צרו איתנו קשר בעמוד{' '}
+          <a href="/contact" className="text-primary underline-offset-4 hover:underline">
+            יצירת קשר
+          </a>{' '}
+          עם מספר ההזמנה, ונדריך אתכם בתהליך. עלות המשלוח החוזר חלה על הלקוח, אלא אם ההחזרה נובעת
+          מפגם במוצר או טעות בשליחה.
+        </p>
+
+        <div className="mt-8 text-center">
+          <a
+            href="/contact"
+            className="inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3.5 text-sm font-semibold text-primary-foreground transition hover:opacity-90"
+          >
+            לביצוע החזרה או משלוח
+          </a>
+        </div>
       </section>
     </div>
   )

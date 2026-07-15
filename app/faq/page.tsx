@@ -77,6 +77,17 @@ export default function FaqPage() {
           )
         })}
       </div>
+
+      <div className="mx-auto mt-14 max-w-lg rounded-3xl border border-border bg-secondary/40 p-8 text-center">
+        <p className="font-serif text-xl text-foreground">יש לכן שאלה אחרת?</p>
+        <p className="mt-2 text-sm text-foreground/70">נשמח לענות לכל שאלה - אישית ובמהירות.</p>
+        <a
+          href="/contact"
+          className="mt-5 inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3.5 text-sm font-semibold text-primary-foreground transition hover:opacity-90"
+        >
+          שאלו אותנו
+        </a>
+      </div>
     </div>
   )
 }
