@@ -49,9 +49,9 @@ export function SiteFooter() {
           <ul className="mt-4 space-y-2.5">
             {[
               { label: 'אודות lal', href: '/about' },
-              { label: 'משלוחים והחזרות', href: '#' },
+              { label: 'משלוחים והחזרות', href: '/shipping' },
               { label: 'צור קשר', href: '/contact' },
-              { label: 'שאלות נפוצות', href: '#' },
+              { label: 'שאלות נפוצות', href: '/faq' },
             ].map(({ label, href }) => (
               <li key={label}>
                 <Link
